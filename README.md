@@ -69,4 +69,4 @@ Looking at the tables, we can see that 33,118 employees are eligible for retirem
 
 Based on birthdates between 01/01/65 and 12/31/65, there are currently 1549 employees eligible for the mentorship program.
 
-Further analysis is definitely needed to determine if there are really only 5 managers in the company. Also, the company needs to look into the salaries to contradict the finding that there have been no raises in the company.
+Further analysis is definitely needed to determine if there are really only 5 managers in the company. Also, the company needs to look into the salaries to contradict the finding that there have been no raises in the company. It may also be worthwhile to determine if there are any employees who were born between 1952 and 1955, but were hired later than 1988, because they would still meet the age requirement for retirement and possibly came to work with the company later in their careers.
