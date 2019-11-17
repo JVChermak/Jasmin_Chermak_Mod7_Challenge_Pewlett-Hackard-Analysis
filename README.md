@@ -10,7 +10,7 @@ Pewlett Hackard is preparing for a large amount of its employees to retire. From
 - Data sources: departments.csv, dept_emp.csv, dept_manager.csv, employees.csv, salaries.csv, titles.csv
 - Software: QuickDBD, pgAdmin 4, SQL
 
-## Challenge Summary
+## Challenge Tables
 Looking at the given data, the it was determined that emp_no and dept_no were Primary Keys in the Employees and Departments tables, respectively. The relationships were mapped in an ERD.
 ![Employee relationships](EmployeesDB_updated.png)
 
@@ -63,3 +63,10 @@ AND (titles.to_date = '9999-01-01')
 ORDER BY e.emp_no;  
 SELECT * FROM mentors;  
 ![Example of mentos](images/mentors.png)
+
+## Challenge Summary
+Looking at the tables, we can see that 33,118 employees are eligible for retirement based on a birth date between 01/01/52 and 12/31/55 and hire dates between 01/01/85 and 12/31/88. The largest group eligible to retire is Senior Engineers with 13,651, followed by the Senior Staff with 12,872. Only 2 managers are eligible for retirement, but this may be significant because other queries showed that there are very few managers.
+
+Based on birthdates between 01/01/65 and 12/31/65, there are currently 1549 employees eligible for the mentorship program.
+
+Further analysis is definitely needed to determine if there are really only 5 managers in the company. Also, the company needs to look into the salaries to contradict the finding that there have been no raises in the company.
