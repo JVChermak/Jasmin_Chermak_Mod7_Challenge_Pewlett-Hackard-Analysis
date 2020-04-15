@@ -11,7 +11,7 @@ Pewlett Hackard is preparing for a large amount of its employees to retire. From
 - Software: QuickDBD, pgAdmin 4, SQL
 
 ## Challenge Tables
-Looking at the given data, the it was determined that emp_no and dept_no were Primary Keys in the Employees and Departments tables, respectively. The relationships were mapped in an ERD.
+Looking at the given data, it was determined that emp_no and dept_no were Primary Keys in the Employees and Departments tables, respectively. The relationships were mapped in an ERD.
 ![Employee relationships](EmployeesDB_updated.png)
 
 1. Code to create the list of current employees eligible for retirement with their titles:
